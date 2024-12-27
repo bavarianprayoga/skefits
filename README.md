@@ -4,7 +4,7 @@
 I used `MobileNetV3` as i initially planned to deploy it on mobile. But due to my limitation on Flutter. Deploying it on web using Streamlit will do for now. `ResNet` will also be an option. 
 
 ## Dataset Used
-This model uses [Param Aggarwal's fashion dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset) with roughly 44k images, 15GB in size including metadata and individual jsons. It is quite old for fast-growing fashion scene. But the amount of content contained in this dataset is rich. Especially the jsons, and that's what i'm looking for.
+This model uses [Param Aggarwal's fashion dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset) with roughly 44k images, 15GB in size including metadata and individual JSON. It is quite old for fast-growing fashion scene. But the amount of content contained in this dataset is rich. Especially the JSON, and that's what i'm looking for.
 
 ## Limitations and Challenges
 One of the things that i haven't fix is the webcam freezing when deploying. It still can take an image, but it only shows the first frame it took and froze.
